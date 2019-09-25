@@ -12,7 +12,7 @@ class CreateProject extends Component {
     season: '',
     package: '',
     cover: '',
-    date: new Date
+    date: new Date()
   }
 
   handleChange = (e) => {
